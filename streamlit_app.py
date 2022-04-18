@@ -58,14 +58,16 @@ for  index,node in column_nodes.iterrows():
     nodes.append(Node(
         id=node["id:ID"],
         label=node["Name"],
-        size= 400
+        size= 400,
+        symbolType='square'
     ))
 
 for index,node in table_nodes.iterrows():
     nodes.append(Node(
         id=node["id:ID"],
         label=node["Name"],
-        size= 400
+        size= 400,
+        symboltype='triangle'
     ))
     
 for  index,node in view_nodes.iterrows():
@@ -86,7 +88,8 @@ for  index,node in file_nodes.iterrows():
     nodes.append(Node(
         id=node["id:ID"],
         label=node["id:ID"],
-        size= 400
+        size= 400,
+        svg="https://mobilizeux.blob.core.windows.net/bifrost/CSV_icon_light.svg"
     ))
 
 
