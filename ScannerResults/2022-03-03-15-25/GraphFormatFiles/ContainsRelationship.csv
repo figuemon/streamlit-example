@@ -1,0 +1,5 @@
+:START_ID,:END_ID,:TYPE
+Demo_Code/ViewProcedure/CreateInserts.sql,ORG_DEV.PUBLIC.CREATE_INSERTS,Contains
+Demo_Code/CreateInsertTeradata.sql,PUBLIC.DemoUsers,Contains
+Demo_Code/ViewProcedure/DemoUserViewTerradataView.sql,PUBLIC.ViewDemoUsers,Contains
+Demo_Code/ViewProcedure/DemoUserProcedure.sql,PUBLIC.InsertDemoUser,Contains

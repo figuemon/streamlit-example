@@ -1,0 +1,5 @@
+id:ID,:LABEL,File extension,File languaje
+Demo_Code/CreateInsertTeradata.sql,File,.sql,SnowSQL
+Demo_Code/ViewProcedure/CreateInserts.sql,File,.sql,SnowSQL
+Demo_Code/ViewProcedure/DemoUserProcedure.sql,File,.sql,SnowSQL
+Demo_Code/ViewProcedure/DemoUserViewTerradataView.sql,File,.sql,SnowSQL

@@ -1,0 +1,5 @@
+SourceDescription,FileType,FileLanguaje,Database,Schema,Name,FullyQualifiedName,ObjectType,BuiltIn,LinesOfCode,Line,Column
+Demo_Code/CreateInsertTeradata.sql,.sql,SnowSQL,,PUBLIC,DemoUsers,PUBLIC.DemoUsers,SQLTable,False,8,3,1
+Demo_Code/ViewProcedure/CreateInserts.sql,.sql,SnowSQL,ORG_DEV,PUBLIC,CREATE_INSERTS,ORG_DEV.PUBLIC.CREATE_INSERTS,SQLProcedure,False,8,3,1
+Demo_Code/ViewProcedure/DemoUserProcedure.sql,.sql,SnowSQL,,PUBLIC,InsertDemoUser,PUBLIC.InsertDemoUser,SQLProcedure,False,7,1,1
+Demo_Code/ViewProcedure/DemoUserViewTerradataView.sql,.sql,SnowSQL,,PUBLIC,ViewDemoUsers,PUBLIC.ViewDemoUsers,SQLView,False,11,1,1

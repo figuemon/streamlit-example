@@ -1,0 +1,2 @@
+Script,Calling_Object_Type,Calling_Object_Database,Calling_Object_Schema,Calling_Object_Name,Calling_Object_FullName,Referenced_Object_Type,Referenced_Object_Database,Referenced_Object_Schema,Referenced_Object_Name,Referenced_Object_FullName,Line,Column
+Demo_Code/ViewProcedure/DemoUserViewTerradataView.sql,SQLView,,PUBLIC,ViewDemoUsers,PUBLIC.ViewDemoUsers,SQLView,,PUBLIC,ViewDemoUsers,PUBLIC.ViewDemoUsers,10,6

@@ -1,0 +1,11 @@
+:START_ID,:END_ID,:TYPE
+PUBLIC.DemoUsers,PUBLIC.DemoUsers.FirstName,HasColumn
+PUBLIC.DemoUsers,PUBLIC.DemoUsers.LastName,HasColumn
+PUBLIC.DemoUsers,PUBLIC.DemoUsers.PhoneNumber,HasColumn
+PUBLIC.DemoUsers,PUBLIC.DemoUsers.Email,HasColumn
+PUBLIC.DemoUsers,PUBLIC.DemoUsers.RegistrationDate,HasColumn
+PUBLIC.ViewDemoUsers,PUBLIC.ViewDemoUsers.FirstName,HasColumn
+PUBLIC.ViewDemoUsers,PUBLIC.ViewDemoUsers.LastName,HasColumn
+PUBLIC.ViewDemoUsers,PUBLIC.ViewDemoUsers.PhoneNumber,HasColumn
+PUBLIC.ViewDemoUsers,PUBLIC.ViewDemoUsers.Email,HasColumn
+PUBLIC.ViewDemoUsers,PUBLIC.ViewDemoUsers.RegistrationDate,HasColumn

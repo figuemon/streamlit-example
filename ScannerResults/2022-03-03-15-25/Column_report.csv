@@ -1,0 +1,11 @@
+Parent,Name,Type
+PUBLIC.DemoUsers,Email,VARCHAR(100)
+PUBLIC.DemoUsers,FirstName,VARCHAR(100)
+PUBLIC.DemoUsers,LastName,VARCHAR(79)
+PUBLIC.DemoUsers,PhoneNumber,Integer
+PUBLIC.DemoUsers,RegistrationDate,DATE
+PUBLIC.ViewDemoUsers,Email,
+PUBLIC.ViewDemoUsers,FirstName,
+PUBLIC.ViewDemoUsers,LastName,
+PUBLIC.ViewDemoUsers,PhoneNumber,
+PUBLIC.ViewDemoUsers,RegistrationDate,

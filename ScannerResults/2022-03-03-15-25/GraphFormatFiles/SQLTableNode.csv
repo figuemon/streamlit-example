@@ -1,0 +1,2 @@
+id:ID,:LABEL,BuiltIn,Column,CreationTimestamp,Database,Line,LOC,Name,Schema
+PUBLIC.DemoUsers,SQLTable,False,1,0001-01-01 00:00:00,,3,8,DemoUsers,PUBLIC

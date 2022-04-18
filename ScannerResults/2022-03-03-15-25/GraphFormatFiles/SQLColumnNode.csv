@@ -1,0 +1,11 @@
+id:ID,:LABEL,Name,Parent,Type
+PUBLIC.DemoUsers.Email,SQLColumn,Email,PUBLIC.DemoUsers,VARCHAR(100)
+PUBLIC.DemoUsers.FirstName,SQLColumn,FirstName,PUBLIC.DemoUsers,VARCHAR(100)
+PUBLIC.DemoUsers.LastName,SQLColumn,LastName,PUBLIC.DemoUsers,VARCHAR(79)
+PUBLIC.DemoUsers.PhoneNumber,SQLColumn,PhoneNumber,PUBLIC.DemoUsers,Integer
+PUBLIC.DemoUsers.RegistrationDate,SQLColumn,RegistrationDate,PUBLIC.DemoUsers,DATE
+PUBLIC.ViewDemoUsers.Email,SQLColumn,Email,PUBLIC.ViewDemoUsers,
+PUBLIC.ViewDemoUsers.FirstName,SQLColumn,FirstName,PUBLIC.ViewDemoUsers,
+PUBLIC.ViewDemoUsers.LastName,SQLColumn,LastName,PUBLIC.ViewDemoUsers,
+PUBLIC.ViewDemoUsers.PhoneNumber,SQLColumn,PhoneNumber,PUBLIC.ViewDemoUsers,
+PUBLIC.ViewDemoUsers.RegistrationDate,SQLColumn,RegistrationDate,PUBLIC.ViewDemoUsers,
