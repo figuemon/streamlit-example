@@ -17,7 +17,9 @@ forums](https://discuss.streamlit.io).
 
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
-
+with open('style.css') as f:
+    st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
+    
 
 # with st.echo(code_location='below'): Print code 
 total_points = st.number_input("Number of points in spiral", 1, 5000, 2000)
@@ -54,12 +56,13 @@ edges_contains = pd.read_csv("./ScannerResults/2022-03-03-15-25/GraphFormatFiles
 nodes = []
 edges = []
 
+# "cross", "diamond", "square", "star", "triangle", "wye"
 for  index,node in column_nodes.iterrows():
     nodes.append(Node(
         id=node["id:ID"],
         label=node["Name"],
         size= 400,
-        symbolType='square'
+        symbolType='cross'
     ))
 
 for index,node in table_nodes.iterrows():
@@ -67,7 +70,7 @@ for index,node in table_nodes.iterrows():
         id=node["id:ID"],
         label=node["Name"],
         size= 400,
-        symboltype='triangle'
+        symboltype='diamond'
     ))
     
 for  index,node in view_nodes.iterrows():
@@ -89,7 +92,7 @@ for  index,node in file_nodes.iterrows():
         id=node["id:ID"],
         label=node["id:ID"],
         size= 400,
-        svg="https://mobilizeux.blob.core.windows.net/bifrost/CSV_icon_light.svg"
+        symboltype='star'
     ))
 
 
@@ -97,19 +100,19 @@ for  index,edge in edges_data.iterrows():
     edges.append(Edge(
         source= edge[":START_ID"],
         target= edge[":END_ID"],
-        label = "Sample Relation",
+        label = "Has Columns",
     ))
 for  index,edge in edges_references.iterrows():
     edges.append(Edge(
         source= edge[":START_ID"],
         target= edge[":END_ID"],
-        label = "Sample Relation",
+        label = "References",
     ))
 for  index,edge in edges_contains.iterrows():
     edges.append(Edge(
         source= edge[":START_ID"],
         target= edge[":END_ID"],
-        label = "Sample Relation",
+        label = "Contains",
     ))
 config = Config(width=1000, 
                 height=1500, 
@@ -117,13 +120,17 @@ config = Config(width=1000,
                 nodeHighlightBehavior=True, 
                 highlightColor="#F7A7A6", # or "blue"
                 backgroundColor="#85AFF2",
+                node_color="blue",
                 collapsible=True,
                 node={'labelProperty':'label'},
                 link={'labelProperty': 'label', 'renderLabel': True}
                 # **kwargs e.g. node_size=1000 or node_color="blue"
                 )
+
 agraph(nodes=nodes, 
                       edges=edges, 
                       config=config)
+
 st.title("SQL Retrieved Nodes")
+
 st.write(nodes)
