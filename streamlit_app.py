@@ -111,8 +111,8 @@ for  index,edge in edges_contains.iterrows():
         target= edge[":END_ID"],
         label = "Sample Relation",
     ))
-config = Config(width=500, 
-                height=500, 
+config = Config(width=1000, 
+                height=1500, 
                 directed=True,
                 nodeHighlightBehavior=True, 
                 highlightColor="#F7A7A6", # or "blue"
