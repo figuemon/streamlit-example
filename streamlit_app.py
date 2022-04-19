@@ -116,6 +116,7 @@ config = Config(width=1000,
                 directed=True,
                 nodeHighlightBehavior=True, 
                 highlightColor="#F7A7A6", # or "blue"
+                backgroundColor="#85aff2",
                 collapsible=True,
                 node={'labelProperty':'label'},
                 link={'labelProperty': 'label', 'renderLabel': True}
